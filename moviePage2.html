@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 7th Edition
+
+      Movie Knight
+      Author: Colin Waters
+      Date:   2/21/2018
+
+      Filename:   moviePage2.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="keywords" content="movies, classic movies," />
+   <meta name="author" content="Colin Waters" />
+   <title>Movie Knight Movie2</title>
+   <link href="mk_reset.css" rel="stylesheet" />
+   <link href="mk_styles.css" rel="stylesheet" />
+   <link href="mk_forms.css" rel="stylesheet" />
+   <script src="mk_formsubmit.js"></script>
+
+</head>
+
+<body>
+   <header>
+      <img src="movieKnightLogo.png" alt="Movie Knight Logo" usemap="#mklogo" />
+		 <map name="mklogo">
+			<area shape="rect" coords="400,60,580,220" href="movieHome.html" alt="Roadwasys logo" />
+		 </map>
+      <nav class="horizontal" id="topLinks"> 
+         <ul>
+            <li><a href="movieHome.html">Home</a></li>
+            <li><a href="moviePage1.html">Featured Movie #1.</a></li>
+            <li><a href="moviePage2.html">Featured Movie #2.</a></li>
+            <li><a href="moviePage3.html">Featured Movie #3.</a></li>
+         </ul>
+      </nav>
+   </header>
+   <section>
+
+      <form id="survey" action="http://www.example.com/MovieKnight/servey" method="post">
+		<fieldset id="custInfo">
+           <h1>Title of Movie</h1>
+            <iframe width="450" height="315" src="https://www.youtube.com/embed/qyquczkXgPc" 
+			frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</fieldset>
+		<fieldset id="expInfo">
+			<legend>Share Your Experience About this Movie</legend>
+			<aside><a name="top"></a>
+			<blockquote>An ancient Ring thought lost for centuries has been found, and through a 
+			strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers 
+			the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to
+			the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by 
+			Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends 
+			Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, 
+			facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to 
+			destroy the One Ring is the only hope for the end of the Dark Lords reign!<br /><cite>Paul Twomey</cite>
+			</blockquote><hr />
+			<blockquote>The future of civilization rests in the fate of the One Ring, which has been 
+			lost for centuries. Powerful forces are unrelenting in their search for it. But fate has
+			placed it in the hands of a young Hobbit named Frodo Baggins, who inherits the Ring and 
+			steps into legend. A daunting task lies ahead for Frodo when he becomes the Ringbearer - 
+			to destroy the One Ring in the fires of Mount Doom where it was forged.<br /><cite>Jwelch5742</cite>
+			</blockquote><hr />
+			<blockquote> The power of Bilbo Baggins's ring of invisibility may have been underestimated,
+			Gandalf the Grey fears its power even with his unfathomable magical abilities. As the power
+			of the one ring grows, so too do the armies of Sauron and Sarumon as their evil spreads across
+			the lands of man, dwarf and elf alike. It is up to a ragtag band of heroes to carry the ring to
+			Mount Doom, the evil place of its birth, and cast it into the eternal fires that forged it. Does
+			the fellowship have what it takes to complete its task, or will the powers of evil overcome those
+			of good leaving behind a world ravaged by the rage of Sauron, the Dark Lord?<br /> <cite>DikkyJay</cite>
+			</blockquote><hr />
+			<blockquote>In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the
+			Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. 
+			But the One Ring was taken from him, and though he sought it throughout Middle-Earth still it remained
+			lost to him. After many ages it fell, by chance, into the hands of the Hobbit, Bilbo Baggins. On his 
+			eleventy-first birthday, Bilbo disappeared, bequeathing to his young nephew, Frodo, the Ruling Ring, 
+			and a perilous quest: to journey across Middle-Earth, deep into the shadow of the Dark Lord and destroy 
+			 the Ring by casting it into the Cracks of Doom. <br /> <cite>The Tolkien Society</cite>
+			</blockquote><hr />
+			<blockquote>In ancient times, the Elven-smiths created the Rings of Power. Then the Dark Lord Sauron 
+			created a Ring to rule the Lesser Rings. But the Ring was stolen, and for a long time, he thought it 
+			to be lost. But many years later, the Ring came to the hobbit, Bilbo Baggins. In a land called the
+			Shire, Frodo inherits the Ring from his uncle, Bilbo. Now Frodo must take a journey across Middle-earth,
+			and throw the Ring into the volcano, Mt. Doom, the only place it can be destroyed. <br /><cite>Nathan77</cite>
+			</blockquote><hr />
+			<blockquote>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful
+			One Ring and save Middle-earth from the Dark Lord Sauron. <br /> <cite>Paul Twaomey and Brian McInnis</cite>
+			</blockquote><a href="#top">Back to Top</a>
+			</aside>
+			<div class="formRow">
+				<label for="rangeBox">Rate the experiance on a scale<br />(0=poor; 10=great)</label>
+				0
+				<input name="serviceRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10" />
+				10
+			</div>
+			<div>	
+				<label for="commBox">Tell us more about your expireance!</label>
+				<textarea name="custExp" id="comBox"></textarea>
+			</div>
+		<fieldset>
+		<div id="buttons">
+			<input type="submit" value="Submit my Review" />
+			<input type="reset" value="Cancel" />
+		</div>
+	  <form>
+     
+   </section>
+   <footer>
+      <address>
+      Movie Knight <br />
+      123 Fake Dr <br />
+      Bremerton, WA  98370 <br />
+      (360) 214 - 7498
+      </address>
+   </footer>
+</body>
+</html>
